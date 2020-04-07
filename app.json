@@ -4,24 +4,27 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color":"#303030",
-    "selectedColor":"#ff5777",
-    "list": [{
-      "pagePath": "pages/my-list/my-list",
-      "text": "我的列表",
-      "iconPath": "assets/images/mine.png",
-      "selectedIconPath": "assets/images/mine-active.png"
-    },
-    {
-      "pagePath": "pages/other-list/other-list",
-      "text": "其他列表",
-      "iconPath": "assets/images/other.png",
-      "selectedIconPath": "assets/images/other-active.png"
-    }]
+    "color": "#303030",
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/my-list/my-list",
+        "text": "我的列表",
+        "iconPath": "assets/images/mine.png",
+        "selectedIconPath": "assets/images/mine-active.png"
+      },
+      {
+        "pagePath": "pages/other-list/other-list",
+        "text": "其他列表",
+        "iconPath": "assets/images/other.png",
+        "selectedIconPath": "assets/images/other-active.png"
+      }
+    ]
   },
   "pages": [
     "pages/my-list/my-list",
-    "pages/other-list/other-list"
+    "pages/other-list/other-list",
+    "pages/my-header-and-swiper/my-header-and-swiper"
   ],
   "sitemapLocation": "sitemap.json"
 }

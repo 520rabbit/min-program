@@ -1,0 +1,5 @@
+.out {
+  width: 100vw;
+  height: 1000rpx;
+  background: #ccc;
+}

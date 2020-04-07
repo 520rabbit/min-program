@@ -1,0 +1,21 @@
+<!--components/c-swiper/c-swiper.wxml-->
+<view class="page c-swiper-out">
+  <c-swiper-header id="item-count" tabbarData="{{pageData}}" bind:selectItem="_handlerChangeItem"/>
+  <swiper class="swiper-container"  current="{{currentIndex}}" bindchange="swiperChange">
+    <swiper-item>
+      <view>111</view>
+    </swiper-item>
+    <swiper-item>
+      <view>222</view>
+    </swiper-item>
+    <swiper-item>
+      <view>333</view>
+    </swiper-item>
+    <swiper-item>
+      <view>444</view>
+    </swiper-item>
+      <swiper-item>
+      <view>555</view>
+    </swiper-item>
+  </swiper>
+</view>

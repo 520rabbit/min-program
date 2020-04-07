@@ -1,0 +1,31 @@
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  line-height: 100rpx;
+}
+
+.nav-wrap > .nav-item {
+  flex: 1;
+  background: pink;
+  text-align: center;
+  border: 1px solid orange;
+}
+
+/* .nav-item > .nav-title {
+  width: 100%;
+  color: #777
+} */
+
+.nav-item  > .item-img {
+  width: 80rpx;
+  margin: auto;
+}
+
+.item-img > image {
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.active > .nav-title{
+  color: #ff5777!important;
+}

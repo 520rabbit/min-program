@@ -1,0 +1,4 @@
+<view>
+  <!-- <c-swiper-header tabbarData="{{tabbarData}}" bind:selectItem ="selectItem"/> -->
+  <c-swiper pageData="{{tabbarData}}" c-swiper-out="out" />
+</view>

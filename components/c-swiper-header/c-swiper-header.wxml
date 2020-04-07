@@ -1,0 +1,37 @@
+<!--components/c-swiper-header/c-swiper-header.wxml-->
+
+<view class="nav-wrap">
+  <block wx:for="{{tabbarData}}" wx:key="index">
+    <view id="{{index}}" class="nav-item {{currentIndex == index ? 'active' : '' }} " bindtap="_handlderTabbar">
+      <view class="nav-title">{{item.title}}</view>
+      <view class="item-img">
+        <image src="{{item.imgUrl}}" mode="aspectFit"></image>
+      </view>
+    </view>
+  </block>
+</view>
+<!-- 
+  <view class="nav-item">
+    <view class="nav-title">消息</view>
+    <view class="item-img">
+      <image src="/assets/tabar/info.png" mode="aspectFit"></image> 
+    </view>
+  </view>
+  <view class="nav-item">
+    <view class="nav-title">分类</view>
+    <view class="item-img">
+      <image src="/assets/tabar/category.png" mode="aspectFit"></image> 
+    </view>
+  </view>
+  <view class="nav-item">
+    <view class="nav-title">我的</view>
+    <view class="item-img">
+      <image src="/assets/tabar/mine.png" mode="aspectFit"></image> 
+    </view>
+  </view>
+  <view class="nav-item">
+    <view class="nav-title">首页</view>
+    <view class="item-img">
+      <image src="/assets/tabar/home.png" mode="aspectFit"></image> 
+    </view>
+  </view> -->

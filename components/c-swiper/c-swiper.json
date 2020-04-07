@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "c-swiper-header": "/components/c-swiper-header/c-swiper-header"
+  }
+}
