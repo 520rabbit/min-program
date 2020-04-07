@@ -1,0 +1,4 @@
+<!--pages/my-list/my-list.wxml-->
+<view class="min-wrap">
+  <c-my-item />
+</view>

@@ -1,0 +1,32 @@
+<!--pages/my-list/my-list.wxml-->
+  <view class="min-item">
+    <view class="min-avatar"><image src="/assets/images/my-avatar.jpg" mode="widthFix"/> </view>
+    <text class="min-title">这就是我</text>
+  </view>
+
+    <view class="min-item">
+    <view class="min-avatar"><image src="/assets/images/my-avatar.jpg" mode="widthFix"/> </view>
+    <text class="min-title">这就是我</text>
+  </view>
+
+
+    <view class="min-item">
+    <view class="min-avatar"><image src="/assets/images/my-avatar.jpg" mode="widthFix"/> </view>
+    <text class="min-title">这就是我</text>
+  </view>
+
+
+    <view class="min-item">
+    <view class="min-avatar"><image src="/assets/images/my-avatar.jpg" mode="widthFix"/> </view>
+    <text class="min-title">这就是我</text>
+  </view>
+
+    <view class="min-item">
+    <view class="min-avatar"><image src="/assets/images/my-avatar.jpg" mode="widthFix"/> </view>
+    <text class="min-title">这就是我</text>
+  </view>
+
+    <view class="min-item">
+    <view class="min-avatar"><image src="/assets/images/my-avatar.jpg" mode="widthFix"/> </view>
+    <text class="min-title">这就是我</text>
+  </view>

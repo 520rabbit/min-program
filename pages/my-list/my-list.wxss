@@ -1,0 +1,10 @@
+/* pages/my-list/my-list.wxss */
+.min-wrap > c-my-item{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+
